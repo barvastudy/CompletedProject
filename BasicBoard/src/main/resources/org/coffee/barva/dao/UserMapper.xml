@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.coffee.barva.dao.UserMapper">
+	<resultMap id="userResultMap" type="org.coffee.barva.domain.UserVO">
+		<result property="seq" column="seq" />
+		<result property="userId" column="user_id" />
+		<result property="userPw" column="user_pw" />
+	</resultMap>
+</mapper>
